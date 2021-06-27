@@ -24,7 +24,7 @@ scp target/petclinic.war root@10.0.20.176:/opt/tomcat/webapps'''
     stage('testing') {
       steps {
         sh '''#!/bin/bash
-curl -I https://localhost/petclinic'''
+curl -I https://10.0.20.176:8080/petclinic'''
       }
     }
 
