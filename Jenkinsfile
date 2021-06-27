@@ -21,10 +21,10 @@ scp target/petclinic.war root@10.0.20.176:/opt/tomcat/webapps'''
       }
     }
 
-    stage('testing') {
+    stage('') {
       steps {
         sh '''#!/bin/bash
-curl -I https://10.0.20.176:8080/petclinic'''
+curl -I https://tomcat.deploymentlegend.in/petclinic/'''
       }
     }
 
