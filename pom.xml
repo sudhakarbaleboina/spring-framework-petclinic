@@ -511,7 +511,7 @@
                 <db.script>mysql</db.script>
                 <jpa.database>MYSQL</jpa.database>
                 <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:mysql://52.66.208.17:3306/sudhakar?useUnicode=true</jdbc.url>
+                <jdbc.url>jdbc:mysql://database-2.c1wuw4aos0hd.ap-south-1.rds.amazonaws.com:3306/sudhakar?useUnicode=true</jdbc.url>
                 <jdbc.username>sudhakar</jdbc.username>
                 <jdbc.password>Sudha@123</jdbc.password>
             </properties>
